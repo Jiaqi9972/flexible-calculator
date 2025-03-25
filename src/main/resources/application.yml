@@ -1,0 +1,19 @@
+spring:
+  application:
+    name: flexible-calculator
+
+server:
+  port: 8090
+
+# Logging configuration
+logging:
+  pattern:
+    console: "%d{yyyy-MM-dd HH:mm:ss} [%thread] %-5level %logger{36} - %msg%n"
+
+# swagger
+# disabled in prod env
+springdoc:
+  api-docs:
+    enabled: true
+  swagger-ui:
+    enabled: true
