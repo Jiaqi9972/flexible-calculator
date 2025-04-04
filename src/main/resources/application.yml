@@ -17,3 +17,10 @@ springdoc:
     enabled: true
   swagger-ui:
     enabled: true
+
+# actuator
+management:
+  endpoints:
+    web:
+      exposure:
+        include: "info,metrics"
